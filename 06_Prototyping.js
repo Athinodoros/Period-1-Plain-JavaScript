@@ -35,12 +35,6 @@ function Pet(name, size , color, food) {
     this.color = color;
     this.food = food;
 }
-//var Pet ={
-//    name : null,
-//    size : null,
-//    color : null,
-//    food : null
-//}
 
 //--------------------------------------------/this code is only to be used for the examples -------------------------
 

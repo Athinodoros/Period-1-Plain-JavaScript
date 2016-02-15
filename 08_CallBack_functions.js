@@ -17,7 +17,17 @@
 
  User defined CallBacks give the user flexibility and control of the outcome.
  */
+
+//       -----------------
+//       ----EXAMPLES-----
+//       -----------------
+
+//--------------------------------------------this code is only to be used for the examples -------------------------
+
 var myArray = new Array('Lars', 'Jan', 'Bo', 'Frederik');
+
+//--------------------------------------------this code is only to be used for the examples -------------------------
+
 
 //exapme 1
 
@@ -43,4 +53,3 @@ console.log(uppered);
  There are tones of example we could pass in like converting the names to numbers according their size etc.
  This gives us endless options and many hours of Fun playing around with JavaScript
  */
-

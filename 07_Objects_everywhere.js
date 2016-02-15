@@ -14,13 +14,18 @@
 
  */
 
+//       -----------------
+//       ----EXAMPLES-----
+//       -----------------
 
+//--------------------------------------------this code is only to be used for the examples -------------------------
 function Pet(name, size , color, food) {
     this.name = name;
     this.size = size;
     this.color = color;
     this.food = food;
 }
+//--------------------------------------------this code is only to be used for the examples -------------------------
 
 // example
 
