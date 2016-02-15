@@ -32,8 +32,12 @@ var logIt = function () {
 }
 console.log(logIt());
 
-//--------------------------------------------this code is only to be used for the examples -------------------------
+//--------------------------------------------/this code is only to be used for the examples -------------------------
 
+
+//       -----------------
+//       ----EXAMPLES-----
+//       -----------------
 
 // example 1
 console.log("------ example 1 ------");

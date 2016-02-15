@@ -44,7 +44,7 @@ function f2() {
 
     function displayGhostWords() {
         console.log(ghost2);
-    } 
+    }
 
     return displayGhostWords;
 }
@@ -76,10 +76,40 @@ var myNew = (function f3() {
 
     return displayName;
 })();
-myFunc();
+var gotHimOut = myNew.getGhost();
+console.log(gotHimOut);
+gotHimOut = "haha he is really out";
+console.log(myNew.whatDoesTheGhostSay());
+/*
+this demonstrates that we have a reference to a ghost that acts like our ghost in the method
+but is not the same one.
+At this point we can say that out ghost is a private variable to our method and only the method can change him.
+hmmmmm lets do that
+ */
 
-//example 1
-console.log('------example 1------');
+//example 4
+console.log('------example 4------');
+
+var myNew2 = (function f4() {
+    var ghost4 = "I think I also have agoraphobia";
+
+    return{
+        getGhost :  function () {
+            return ghost4
+        }, whatDoesTheGhostSay: function(){
+            console.log(ghost4)
+        }, whatWillItSayFromNowOn : function(message){
+            ghost4 = message;
+        }
+    }
+
+    return displayName;
+})();
+var gotHimOut = myNew2.getGhost();
+console.log(gotHimOut);
+myNew2.whatWillItSayFromNowOn("haha he is really out!!! or act like he/she is :P ");
+console.log(myNew2.getGhost());
+
 
 
 
